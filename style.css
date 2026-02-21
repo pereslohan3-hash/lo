@@ -1,0 +1,14 @@
+body{background-color: black;
+}
+button{ width: calc(100% - 10px) ;}
+button{height: 100px ;}
+button{font-size: 30px;}
+input{height: 100px;}
+input{width: 200px;}
+.container
+{width: 50%;
+margin:auto;
+padding: 40px;
+background: #dfd9da;
+color: rgb(9, 139, 253);
+align-items: center;}
