@@ -1,7 +1,5 @@
 body{background-color: black;
-overflow-x: hidden;
-max-height: max-content;
-display: flex table-column;}
+}
 button{ width: calc(100% - 10px) ;}
 button{height: 100px ;}
 button{font-size: 30px;}
@@ -14,5 +12,6 @@ padding: 40px;
 background: #dfd9da;
 color: rgb(9, 139, 253);
 align-items: center;}
+
 
  
