@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 @keyframes mover {
     0%{
         background-position: 0%;
@@ -51,9 +51,10 @@ header{
     border: 2px solid white;
 }
 h1{
-    font-family: "Almendra SC", serif;
+    font-family: "Nosifer", sans-serif;
   font-weight: 500px;
     font-size: 50px;
+    color: red;
 }
 .card{
     background-color: black;
