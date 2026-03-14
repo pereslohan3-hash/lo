@@ -23,6 +23,10 @@
         background-color:white
     }
 }
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 body{ 
       animation: mover 5s infinite alternate ;
       display: flex;
