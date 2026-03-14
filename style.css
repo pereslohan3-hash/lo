@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@keyframes luz {
+    0%{
+        color: goldenrod;
+        text-shadow: 
+        0 0 5px gold,
+        0 0 10px gold,
+        0 0 20px gold,
+        0 0 40px gold;
+    }
+    100%{
+        color: goldenrod;
+        text-shadow: 
+        0 0 5px yellow,
+        0 0 10px yellow,
+        0 0 20px yellow,
+        0 0 40px yellow;
+    }
+}
 @keyframes neon {
     0%{
         color: white;
@@ -71,12 +90,17 @@ header{
     height: 6.25rem;
     border-radius: 20px;
     border: 2px solid white;
+    box-shadow: 0 0 5px black,
+    0 0 10px black,
+    0 0 20px black,
+    0 0 40px black ;
 }
 h1{
     font-family: "Nosifer", sans-serif;
   font-weight: 30rem;
     font-size: 2rem;
     color: red;
+    animation: neon 1s infinite alternate;
 }
 .card{
     background-color: black;
@@ -87,7 +111,10 @@ h1{
     width: 31.25rem;
     border-radius: 15px;
     border: 2px solid white;
-    box-shadow: 0 10px 20px black;
+    box-shadow: 0 0 5px black,
+    0 0 10px black,
+    0 0 20px black,
+    0 0 40px black;
     padding: 0;
     margin: 0;
     overflow: none;
@@ -135,5 +162,9 @@ button{
 a{
     text-decoration: none;
     color: white;
+}
+#p1{
+    font-family: "Cinzel Decorative", serif;
+    animation: luz 5s infinite alternate;
 }
  
