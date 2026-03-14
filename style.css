@@ -72,12 +72,10 @@ main{
     padding: 20px;
 }
 *{
-    flex-direction: column;
     font-family: "Domine", serif;
   font-optical-sizing: auto;
     padding: 0;
     margin: 0;
-    display: flex;
     max-width: 100%;
     box-sizing: border-box;
     overflow-x: none;
@@ -109,6 +107,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
     height: 25rem;
     width: 31.25rem;
     border-radius: 15px;
