@@ -90,6 +90,7 @@ h1{
     box-shadow: 0 10px 20px black;
     padding: 0;
     margin: 0;
+    overflow: none;
 
 }
 .card img{
