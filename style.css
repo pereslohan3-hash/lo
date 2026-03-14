@@ -79,6 +79,7 @@ main{
     margin: 0;
     display: flex;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 header{
     background-color: rgba(0, 0, 0, 0.836);
