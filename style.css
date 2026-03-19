@@ -1,173 +1,206 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
-@keyframes luz {
-    0%{
-        color: goldenrod;
-        text-shadow: 
-        0 0 5px gold,
-        0 0 10px gold,
-        0 0 20px gold,
-        0 0 40px gold;
-    }
-    100%{
-        color: goldenrod;
-        text-shadow: 
-        0 0 5px yellow,
-        0 0 10px yellow,
-        0 0 20px yellow,
-        0 0 40px yellow;
-    }
-}
-@keyframes neon {
-    0%{
-        color: white;
-        text-shadow: 
-            0 0 5px red,
-             0 0 10px red,
-            0 0 20px red,
-            0 0 10px red
-    }
-    100%{
-        color: white;
-        text-shadow: 
-            0 0 5px red,
-             0 0 10px red,
-            0 0 20px red,
-            0 0 40px red
-    }
-}
-@keyframes mover {
-    0%{
-        background-position: 0%;
-        background-color: black
-    }
-    25%{
-        background-position: 25%;
-        background-color: darkgray;
-    }
-    50%{
-        background-position: 50%;
-        background-color:gray
-    }
-    75%{
-       background-position: 75%;
-        background-color:lightgray
-    }
-    100%{
-        background-position: 100%;
-        background-color:white
-    }
-}
-body{ 
-      animation: mover 5s infinite alternate ;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      overflow-x: none;
-}
-main{
-    padding: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 *{
-    font-family: "Domine", serif;
-  font-optical-sizing: auto;
     padding: 0;
     margin: 0;
-    max-width: 100%;
     box-sizing: border-box;
-    overflow-x: none;
-    display: flex;
-    flex-direction: column;
 }
-header{
-    background-color: rgba(0, 0, 0, 0.836);
+body{
+    background: linear-gradient(to top left,#1a667c,#0f3d4e,#3ff6ff);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    height: 6.25rem;
-    border-radius: 20px;
-    border: 2px solid white;
-    box-shadow: 0 0 5px black,
-    0 0 10px black,
-    0 0 20px black,
-    0 0 40px black ;
+    padding: 20px;
+    overflow: hidden;  
 }
 h1{
-    font-family: "Nosifer", sans-serif;
-  font-weight: 30rem;
-    font-size: 2rem;
-    color: red;
-    animation: neon 1s infinite alternate;
+     font-family: "IBM Plex Serif", serif;
+     font-weight: 400;
+     font-size: 2.1rem;
+     color: white;
 }
-.card{
-    background-color: black;
+h3{
+     font-family: "IBM Plex Serif", serif;
+     font-weight: 400;
+     color: white;
+}
+main{
+    background-color: #140e0b;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 95%;
-    height: 25rem;
-    width: 31.25rem;
-    border-radius: 15px;
-    border: 2px solid white;
-    box-shadow: 0 0 5px black,
-    0 0 10px black,
-    0 0 20px black,
-    0 0 40px black;
+    width: 35rem;
+    height: 38rem;
+    border: 1px solid white;
     padding: 0;
     margin: 0;
-    overflow-x: none;
-
-}
-.card img{
-    width: 40%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-    padding: 0;
-    margin: 0;
-    border: 2px solid white;
-
-}
-h2{
-    animation: neon 1s infinite alternate;
-    font-size: 1.3rem;
-    font-family: "Nosifer", sans-serif;
-    display: flex;
-    justify-content: first baseline;
-    padding: 0;
-    
-}
-p{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.25rem;
-}
-button{
-    font-size: 1.25rem;
-    padding: 5px ;
-    margin: 5px;
     border-radius: 10px;
-    border-bottom: none;
-    font-family: "Domine", serif;
-    background: linear-gradient(to right,
-    black 0%, black 50% ,gray 100%);
-    color: white;
+    box-shadow:  5px 5px 10px 10px rgba( 0, 0, 0, 0.5);
 }
-a{
-    text-decoration: none;
-    color: white;
+select{
+    height:2.5rem;
+    width: 25rem;
+     color: #8da1dc;
+    border: 1px solid;
+    border-color: #8da1dc;
+    border-radius: 7px;
+    padding-left: 5px;
+    font-size: medium;
+    transition: 0.3s;
+    background-color: black;
 }
 #p1{
-    font-family: "Cinzel Decorative", serif;
-    animation: luz 5s infinite alternate;
+    height:2.5rem;
+    width: 25rem;
+     color: #8da1dc;
+    border: 1px solid;
+    border-color: #8da1dc;
+    border-radius: 7px;
+    padding-left: 5px;
+    font-size: medium;
+}
+::placeholder{
+     font-family: "IBM Plex Serif", serif;
+     font-weight: 400;
+    padding-left: 5px;
+    font-size: medium;
+     color: #8da1dc;
+}
+input{
+    background-color: black;
+    color: #8da1dc;
+    border: 1px solid goldenrod;
+    transition: 0.3s;
+}
+option{
+     font-family: "IBM Plex Serif", serif;
+     font-weight: 400;
+}
+#p2{
+    height:2.5rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 7px;
+     padding-left: 5px;
+    font-size: medium;
+}
+#p3{
+    height:2.5rem;
+    width: 25rem;
+     padding-left: 5px;
+    font-size: medium;
+    border-radius: 7px;
+    
+    
+}
+#p4{
+    height:2.5rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 7px;
+     padding-left: 5px;
+    font-size: medium;
+}
+#p5{
+    height:2.5rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 7px;
+     padding-left: 5px;
+    font-size: medium;
+}
+#p6{
+    height:2.5rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 7px;
+     padding-left: 5px;
+    font-size: medium;
+}
+#p6:hover{
+    background-color: #8da1dc;
+    border-color: white;
+    height:3rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 7px;
+    color: black;
+    padding-left: 5px;
+    font-size: medium;
+}
+input:hover::placeholder{
+    color: black;
+}
+#p5:hover{
+    background-color: #8da1dc;
+    border-color: white;
+    height:3rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 7px;
+    color: black;
+    padding-left: 5px;
+    font-size: medium;
+}
+#p4:hover{
+    background-color: #8da1dc;
+    border-color: white;
+    height:3rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 7px;
+    color: black;
+    padding-left: 5px;
+    font-size: medium;
+}
+#p3:hover{
+    background-color: #8da1dc;
+    border-color: white;
+    height:3rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 7px;
+    color: black;
+    padding-left: 5px;
+    font-size: medium;
+}
+#p2:hover{
+    background-color: #8da1dc;
+    border-color: white;
+    height:3rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 7px;
+    color: black;
+    padding-left: 5px;
+    font-size: medium;
+}
+#p1:hover{
+    background-color: #8da1dc;
+    border-color: white;
+    height:3rem;
+    width: 25rem;
+    border: 1px solid;
+    border-radius: 7px;
+    color: black;
+    padding-left: 5px;
+    font-size: medium;
+}
+button{
+
+    width: 10rem;
+    height: 2rem;
+    background-color: #8996fc;
+    color: black;
+    border-radius: 20px;
+    font-family: "IBM Plex Serif", serif;
+    transition: 0.3s;
+}
+button:hover{
+     width: 11rem;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-family: "IBM Plex Serif", serif;
 }
  
